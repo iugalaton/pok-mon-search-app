@@ -3,7 +3,7 @@
     --font-color: white;
     --pokemon-card: #eff1f7;
     --main: #1a1b30;
-    --button: #7f22ab;
+    --purple: #7f22ab;
     --card-container: #f4f6f8;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 main {
-    //padding-left: 10px;
+   
     padding-top: 100px;
     width: 450px;
     height: 100vh;
@@ -48,7 +48,8 @@ main {
     background-color: var(--card-container);
     width: 100%;
     height: auto;
-
+    border-radius: 20px;
+    box-shadow: 10px 10px #afacaf;
 }
 
 input {
@@ -58,7 +59,7 @@ input {
 }
 
 #search-button {
-    background-color: var(--button);
+    background-color: var(--purple);
     color: var(--font-color);
     width: 90px;
     height: 40px;
@@ -66,10 +67,31 @@ input {
     border: none;
 }
 
-#pokemon-card {
-    
+#pokemon-card {  
     background-color: var(--pokemon-card);
     width: 400px;
     height: 350px;
     margin: auto;
+    text-align: left;
+    padding: 15px 10px;
+   
+
+div.top > div {
+    display: inline;
+    padding-right: 5px;
+    line-height: 1.5;
+    
+}
+
+.stats {
+    background-color: var(--purple);
+    text-align: center;
+    
+}
+
+#type {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
 }
