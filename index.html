@@ -1,58 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pokémon Search App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pokémon Search App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<body>
-    <main>
-        <h1>Pokémon Search App</h1>
-        <div id="container">
-            <label for="search-input">
-                <h3>Search for Pokémon Name or ID:</h3>
-            </label>
-            <input type="text" id="search-input" name="search-input" required>
-            <button id="search-button">Search</button>
+    <body>
+        <main>
+            <h1>Pokémon Search App</h1>
+            <div id="container">
+                <label for="search-input">
+                    <h3>Search for Pokémon Name or ID:</h3>
+                </label>
+                <input type="text" id="search-input" name="search-input" required>
+                <button id="search-button">Search</button>
 
-            <div id="pokemon-card">
-                <div class="top">
-                    <div id="pokemon-name"></div>
-                    <div id="pokemon-id"></div>
-                    <br>
-                    <div id="weight"> </div>
-                    <div id="height"></div>
+                <div id="pokemon-card">
+                    <div class="top">
+                        <div id="pokemon-name"></div>
+                        <div id="pokemon-id"></div>
+                        <br>
+                        <div id="weight"> </div>
+                        <div id="height"></div>
+                        <br>  
+                    </div>
+
                     <div id="image"></div>
+                    
+                    <div id="types"></div>
                 </div>
-                <p id="types"></p>
+                <div id="pokemon-stats">
+                    <div>Base:</div>
+                    <div>Stats:</div> 
+                    <div>HP:</div>
+                    <div id="hp"></div>
+                    <div>Attack:</div>
+                    <div id="attack"></div>
+                    <div>Defense:</div>
+                    <div id="defense"></div>
+
+                    <div>Special attack:</div>
+                    <div id="special-attack"></div>
+                    <div>Special defense:</div>
+                    <div id="special-defense"></div>
+                    <div>Speed:</div>
+                    <div id="speed"></div>
+
+                </div>
             </div>
-            <div id="pokemon-stats">
-                <div>Base:</div>
-                <div>Stats:</div> 
-                <div>HP:</div>
-                <div id="hp"></div>
-                <div>Attack:</div>
-                <div id="attack"></div>
-                <div>Defense:</div>
-                <div id="defense"></div>
 
-                <div>Special attack:</div>
-                <div id="special-attack"></div>
-                <div>Special defense:</div>
-                <div id="special-defense"></div>
-                <div>Speed:</div>
-                <div id="speed"></div>
+        </main>
 
-            </div>
-        </div>
+        <script src="script.js"></script>
+    </body>
 
-    </main>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+    </html>
